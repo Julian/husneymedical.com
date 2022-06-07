@@ -1,5 +1,14 @@
 {
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "prebuild-dev": "rm -rf dist/",
+    "build-dev": "parcel build ./src/index.html --no-optimize --public-url ./",
+    "prebuild": "rm -rf dist/",
+    "build": "parcel build ./src/index.html --public-url ./"
+  },
   "devDependencies": {
+    "parcel": "^2.6.0",
+    "postcss": "^8.4.14",
     "tailwindcss": "^3.0.24"
   }
 }
