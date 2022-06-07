@@ -3,7 +3,10 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build",
+    "prebuild-dev": "rm -rf dist/",
+    "build-dev": "parcel build --no-optimize --public-url ./",
+    "prebuild": "rm -rf dist/",
+    "build": "parcel build --public-url ./",
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
