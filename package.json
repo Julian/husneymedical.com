@@ -7,6 +7,7 @@
     "build-dev": "parcel build --no-optimize --public-url ./",
     "prebuild": "rm -rf dist/",
     "build": "parcel build --public-url ./",
+    "postbuild": "printf 'husneymedical.com\n' >dist/CNAME",
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
