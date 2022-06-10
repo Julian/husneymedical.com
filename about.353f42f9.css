@@ -2566,6 +2566,16 @@ body[dir="rtl"] .checkbox:checked, body[dir="rtl"] .checkbox[checked="true"] {
   --tw-placeholder-opacity: .2;
 }
 
+.link-primary {
+  --tw-text-opacity: 1;
+  color: hsl(var(--p) / var(--tw-text-opacity) );
+}
+
+.link-primary:hover {
+  --tw-text-opacity: 1;
+  color: hsl(var(--pf, var(--p)) / var(--tw-text-opacity) );
+}
+
 .link:focus {
   outline-offset: 2px;
   outline: 2px solid #0000;
@@ -3135,6 +3145,10 @@ body[dir="rtl"] .checkbox:checked, body[dir="rtl"] .checkbox[checked="true"] {
   padding-top: .75rem;
 }
 
+.pt-2 {
+  padding-top: .5rem;
+}
+
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
@@ -3398,4 +3412,4 @@ body[dir="rtl"] .checkbox:checked, body[dir="rtl"] .checkbox[checked="true"] {
   }
 }
 
-/*# sourceMappingURL=about.42f46e5c.css.map */
+/*# sourceMappingURL=about.353f42f9.css.map */
