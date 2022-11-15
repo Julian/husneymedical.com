@@ -20,10 +20,10 @@
 
 title: Husney Medical
 description: >- # this means to ignore newlines until "baseurl:"
-  Board certified Gastroenterologist and Internist, serving Brooklyn's community and beyond.
+  Board certified Gastroenterologist, Hepatologist (Liver Diseases) and Weight Loss Specialist.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://husneymedical.com" # the base hostname & protocol for your site, e.g. http://example.com
-author: Dr. Jack Husney, MD
+author: Jack Husney, MD
 logo: img/logo-dark.png
 
 # Build settings
