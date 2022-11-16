@@ -30,6 +30,7 @@ logo: img/logo-dark.png
 theme: jekyll-theme-clean-blog
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 collections:
   conditions:
