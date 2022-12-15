@@ -19,7 +19,7 @@ GERD is a more severe form of acid reflux where the valve between the stomach an
 This permits the stomach acid to continuously travel back up into the esophagus.
 If GERD remains untreated, the stomach acid can eventually damage the lining of the esophagus and lead to other disorders or diseases.
 
-![GERD](/img/conditions/gerd.jpg)
+<img src="/img/conditions/gerd.jpg" width="auto" width="100%" />
 
 In treating GERD, many who implement lifestyle modifications such as weight loss, adjusting one’s diet, or sleeping positions can be beneficial.
 Other intervention methods used include medication, and in severe cases an anti-reflux surgical procedure may be performed.
