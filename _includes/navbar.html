@@ -16,11 +16,17 @@
         <li class="nav-item">
           <a class="nav-link" href="{{"/about" | relative_url }}">About</a>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item dropleft">
           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Conditions</a>
-          <div class="dropdown-menu">
-            {% for condition in site.conditions %}
-              <a class="dropdown-item" href="{{condition.url}}">{{condition.title}}</a>
+          <div class="dropdown-menu p-2">
+            <h6>Gastroenterology</h6>
+            {% for each in site.conditions %}
+              <a class="dropdown-item" href="{{each.url}}">{{each.title}}</a>
+            {% endfor %}
+            <hr>
+            <h6>Weight Loss</h6>
+            {% for each in site.weight-loss %}
+              <a class="dropdown-item" href="{{each.url}}">{{each.title}}</a>
             {% endfor %}
           </div>
         </li>
