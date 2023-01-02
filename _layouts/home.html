@@ -14,14 +14,23 @@ layout: default
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
             <h1>Jack Husney, MD</h1>
-            {% if site.description %}
             <span class="subheading">
               Board certified Gastroenterologist, Hepatologist (Liver Diseases) and Weight Loss Specialist
             </span>
             <span class="subheading">Serving New York City and beyond</span>
-            {% endif %}
 
             <a class="btn btn-primary mt-3" href="tel:+17188725270" role="button">Call Us</a>
+
+            <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target=".book-modal">Schedule an Appointment</button>
+
+            <div class="modal fade book-modal" tabindex="-1" role="dialog" aria-labelledby="book-label" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <h4 id="book-label" class="modal-title">Schedule an Appointment</h4>
+                  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeKih5TjN2VsLCqEoucPAAsFbYMc2YsMx8X0ViDMHSsBkUTHg/viewform?embedded=true" width="640" height="1155" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
